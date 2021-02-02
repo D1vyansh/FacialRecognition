@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 12 19:52:46 2020
-
-@author: Atharva Tembe
-"""
-#from PIL import Image
+from PIL import Image
 from numpy import asarray
 import numpy as np
 import os
