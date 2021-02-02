@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 23 19:15:48 2020
-
-@author: Atharva Tembe
-"""
-
 from PIL import Image
 from numpy import asarray
 from sklearn.model_selection import train_test_split
