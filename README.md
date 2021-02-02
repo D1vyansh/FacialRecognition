@@ -1,6 +1,6 @@
 # Facial yaw, pitch, and roll understanding
 
-Requirements :
+## Requirements :
 
 - Tenserflow
 - Keras
@@ -18,20 +18,20 @@ MLPEval.py - Read the image and evaluate against the MLP model
 Pandora68Landmarks.py - Find the 68 facial point features from each image and deduce the 2278 euclidean distance features among them.
 PandoraIDatasetIOD.py - Crop the images across the IOD and compute the features
 
-External Dependencies :
+## External Dependencies :
 
 - haarcascade_frontalface_default.xml
 - haarcascade_eye.xml
 - shape_predictor_68_face_landmarks.dat
 
-Datasets :
+## Datasets :
  
 - Pandora dataset
 - CelebA dataset
 - Biwi dataset
 - AFLW dataset
 
-Python Files details :
+## Python Files details :
 
 AnnotatePandora.py - This file is used to create a Python GUI for labelling the Ground Truth values of yaw, pitch and roll and saving the values in an excel 
 file.
@@ -48,6 +48,6 @@ features for each input image and the GT excel containing yaw, pitch and roll co
 accuracy of the model. Train, validation and test split can be done using the train_test_split() function. Mean squared error loss is used in model which can
 also be changed according to need. Finally, we are calculating the average yaw, pitch and roll error.
 
-Usage - 
+## Usage - 
 CMD : python filename.py
 Pycharm : Shift + F10
